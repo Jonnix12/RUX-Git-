@@ -27,19 +27,19 @@ public class Gride : MonoBehaviour
 
     
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(new Vector3(0, 0, 0), new Vector3(6, 0, 0));
-        Gizmos.DrawLine(new Vector3(0, 0, 0), new Vector3(0, 0, 6));
-        Gizmos.DrawLine(new Vector3(6, 0, 0), new Vector3(6, 0, 6));
-        Gizmos.DrawLine(new Vector3(0, 0, 6), new Vector3(6, 0, 6));
-    
-        Gizmos.color = Color.green;
-        for (int X = 1; X < 6; X++)
-        {
-            Gizmos.DrawLine(new Vector3(X, 0, 6), new Vector3(X, 0, 0));
-            Gizmos.DrawLine(new Vector3(0, 0, X), new Vector3(6, 0, X));
-        }
-    }
+    // private void OnDrawGizmos()
+    // {
+    //     Gizmos.color = Color.red;
+    //     Gizmos.DrawLine(new Vector3(0, 0, 0), new Vector3(6, 0, 0));
+    //     Gizmos.DrawLine(new Vector3(0, 0, 0), new Vector3(0, 0, 6));
+    //     Gizmos.DrawLine(new Vector3(6, 0, 0), new Vector3(6, 0, 6));
+    //     Gizmos.DrawLine(new Vector3(0, 0, 6), new Vector3(6, 0, 6));
+    //
+    //     Gizmos.color = Color.green;
+    //     for (int X = 1; X < 6; X++)
+    //     {
+    //         Gizmos.DrawLine(new Vector3(X, 0, 6), new Vector3(X, 0, 0));
+    //         Gizmos.DrawLine(new Vector3(0, 0, X), new Vector3(6, 0, X));
+    //     }
+    // }
 }
