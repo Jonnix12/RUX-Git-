@@ -690,6 +690,26 @@ PrefabInstance:
       propertyPath: _boxCollider
       value: 
       objectReference: {fileID: 986265525}
+    - target: {fileID: 4982899576602486550, guid: da59e5a3713884d4f9e9667c2befa1a4, type: 3}
+      propertyPath: chackNums.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982899576602486550, guid: da59e5a3713884d4f9e9667c2befa1a4, type: 3}
+      propertyPath: chackNums.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982899576602486550, guid: da59e5a3713884d4f9e9667c2befa1a4, type: 3}
+      propertyPath: chackNums.Array.data[2]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982899576602486550, guid: da59e5a3713884d4f9e9667c2befa1a4, type: 3}
+      propertyPath: chackNums.Array.data[3]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982899576602486550, guid: da59e5a3713884d4f9e9667c2befa1a4, type: 3}
+      propertyPath: chackNums.Array.data[4]
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da59e5a3713884d4f9e9667c2befa1a4, type: 3}
 --- !u!1001 &1667405529

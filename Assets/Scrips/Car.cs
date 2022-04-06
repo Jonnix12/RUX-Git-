@@ -94,9 +94,10 @@ namespace Scrips
             
             for (int i = 0; i < chackNums.Length; i++)
             {
-                if (chackNums[i] - num <= previousSum)
+                int temp = (int)Math.Abs(chackNums[i] - num);
+                if (temp <= previousSum)
                 {
-                    previousSum = chackNums[i] - num;
+                    previousSum = temp;
                     sendNum = chackNums[i];
                 } 
             }
