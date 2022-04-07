@@ -489,6 +489,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 2369556}
   rb: {fileID: 1793685084606908121}
+  boxCollider: {fileID: 0}
+  chackNums:
+  - 3
+  - 6
+  - 9
+  - 12
+  - 15
   speed: 3
   front: {fileID: 768654862689187607}
   back: {fileID: 1716661625661943287}

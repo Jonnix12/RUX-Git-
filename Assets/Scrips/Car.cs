@@ -11,7 +11,7 @@ namespace Scrips
         [SerializeField] private MeshRenderer meshRenderer;
         [SerializeField] private Rigidbody rb;
         [SerializeField] private BoxCollider boxCollider;
-        [SerializeField] private int[] chackNums = new int[5];
+        [SerializeField] private float[] chackNums;
         [SerializeField] private float speed = 3;
         [SerializeField] private CarPart front;
         [SerializeField] private CarPart back;
@@ -69,32 +69,31 @@ namespace Scrips
             {
                 float posZ = (front.currentPlate.transform.position.z + back.currentPlate.transform.position.z) / 2f;
                 int posZint = (int)Math.Round(posZ);
-                transform.position = new Vector3(front.currentPlate.transform.position.x, transform.position.y, posZint);
-                FindPositonXZ(posZint);
+                transform.position = new Vector3(front.currentPlate.transform.position.x, transform.position.y, FindPositonXZ(posZint));
             }
             else
             {
                 float posX = (front.currentPlate.transform.position.x + back.currentPlate.transform.position.x) / 2f;
                 int posXint = (int) Math.Round(posX);
-                transform.position = new Vector3(posXint, transform.position.y, front.currentPlate.transform.position.z);
+                transform.position = new Vector3(FindPositonXZ(posXint), transform.position.y, front.currentPlate.transform.position.z);
                 //Debug.Log(posXint);
             }
             
         }
 
-        private int FindPositonXZ(float num)
+        private float FindPositonXZ(float num)
         {
             if (num < 3)
             {
                 num = 3;
             }
             
-            int sendNum = 0;
-            float previousSum = 0;
+            float sendNum = 0;
+            float previousSum = 15;
             
             for (int i = 0; i < chackNums.Length; i++)
             {
-                int temp = (int)Math.Abs(chackNums[i] - num);
+                float temp = Math.Abs(chackNums[i] - num);
                 if (temp <= previousSum)
                 {
                     previousSum = temp;
