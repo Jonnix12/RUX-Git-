@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3115370a-83a2-44e4-a78e-ce55d8b33f68" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RUX-Git-/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RUX-Git-/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +50,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15008">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15008" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -83,6 +83,8 @@
       <workItem from="1649072153103" duration="2662000" />
       <workItem from="1649239358892" duration="4307000" />
       <workItem from="1649339447086" duration="1371000" />
+      <workItem from="1649507467428" duration="170000" />
+      <workItem from="1649507679311" duration="71000" />
     </task>
     <servers />
   </component>
