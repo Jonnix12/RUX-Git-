@@ -489,14 +489,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 2359104}
   rb: {fileID: 6321365757422041864}
-  boxCollider: {fileID: 0}
+  boxCollider: {fileID: 9086701788423311969}
   chackNums:
   - 3
   - 6
   - 9
   - 12
   - 15
-  speed: 3
+  speed: 10
   front: {fileID: 5008563281348350970}
   back: {fileID: 658740578106307001}
   currentPlate: {fileID: 0}

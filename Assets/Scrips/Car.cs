@@ -24,8 +24,6 @@ namespace Scrips
         private void Awake()
         {
             SetPosition();
-            Debug.Log("Tan: " + transform.position);
-            Debug.Log("Bbox: " + transform.TransformPoint(boxCollider.center));
         }
 
         private void OnMouseEnter()
@@ -76,7 +74,6 @@ namespace Scrips
                 float posX = (front.currentPlate.transform.position.x + back.currentPlate.transform.position.x) / 2f;
                 int posXint = (int) Math.Round(posX);
                 transform.position = new Vector3(FindPositonXZ(posXint), transform.position.y, front.currentPlate.transform.position.z);
-                //Debug.Log(posXint);
             }
             
         }
@@ -100,8 +97,7 @@ namespace Scrips
                     sendNum = chackNums[i];
                 } 
             }
-
-            Debug.Log(sendNum);
+            
             return sendNum;
         }
     }

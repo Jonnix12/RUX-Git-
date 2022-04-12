@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="3115370a-83a2-44e4-a78e-ce55d8b33f68" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RUX-Git-/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RUX-Git-/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Armor_Car_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Armor_Car_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Bus_Blue_Z.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Bus_Blue_Z.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Car_Blue_Z.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Car_Blue_Z.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Ute_Red_Z.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Ute_Red_Z.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Van_Green_Z.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Van_Green_Z.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainManu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainManu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ScenesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +34,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/b2/eb7d8cde/Debug.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/97/d1c276db/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,7 +55,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="rider.run.widget.enabled.cache" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
@@ -85,6 +94,7 @@
       <workItem from="1649339447086" duration="1371000" />
       <workItem from="1649507467428" duration="170000" />
       <workItem from="1649507679311" duration="71000" />
+      <workItem from="1649771188931" duration="1561000" />
     </task>
     <servers />
   </component>

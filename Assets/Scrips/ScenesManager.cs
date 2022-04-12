@@ -8,17 +8,28 @@ namespace Scrips
 {
     public class ScenesManager : MonoBehaviour
     {
-        public int sceneIndex = 0;
+         [HideInInspector] public int sceneIndex = 1;
 
         private void Start()
         {
             DontDestroyOnLoad(this);
+            PlayerPrefs.GetInt("SceneIndex(ruseHour)",sceneIndex); 
         }
 
+        public void LoadScene()
+        {
+            SceneManager.LoadScene(sceneIndex);
+        }
+        
         public void NextScenes()
         {
             sceneIndex++;
             SceneManager.LoadScene(sceneIndex);
+        }
+
+        private void OnApplicationQuit()
+        {
+            PlayerPrefs.SetInt("SceneIndex(ruseHour)",sceneIndex);
         }
     }
 }
