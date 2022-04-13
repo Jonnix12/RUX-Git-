@@ -6,17 +6,40 @@
   <component name="ChangeListManager">
     <list default="true" id="3115370a-83a2-44e4-a78e-ce55d8b33f68" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RUX-Git-/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RUX-Git-/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Armor_Car_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Armor_Car_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Bus_Blue_Z.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Bus_Blue_Z.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Car_Blue_Z.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Car_Blue_Z.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Ute_Red_Z.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Ute_Red_Z.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Van_Green_Z.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Van_Green_Z.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainManu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainManu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ScenesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Car(2 Blocks).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Car(2 Blocks).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Car(3 Blocks).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Car(3 Blocks).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Gride.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Gride.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/GridePlane.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/GridePlane.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/LavelManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/LavelManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Bus_Blue_Z.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Bus_Blue_Z.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Car_Blue_Z.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Car_Blue_Z.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Ute_Red_Z.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Ute_Red_Z.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Van_Green_Z.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Veh_Van_Green_Z.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CarTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CarTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelSelect.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelSelect.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainManu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainManu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Car.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Car.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/CarPart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/CarPart.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Gride/Gride.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Gride/Gride.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScenesManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScenesManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +55,6 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scrips/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/b2/eb7d8cde/Debug.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -95,6 +117,7 @@
       <workItem from="1649507467428" duration="170000" />
       <workItem from="1649507679311" duration="71000" />
       <workItem from="1649771188931" duration="1561000" />
+      <workItem from="1649794652547" duration="5720000" />
     </task>
     <servers />
   </component>

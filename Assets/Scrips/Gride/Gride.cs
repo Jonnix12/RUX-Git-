@@ -1,11 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Scrips.Gride;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Gride : MonoBehaviour
 {
     GridePlate[] gridePlates;
+
+    public UnityEvent OnCarExit; 
 
     private void Awake()
     {
@@ -25,7 +29,15 @@ public class Gride : MonoBehaviour
 
     }
 
-    
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag.Contains("RedCar"))
+        {
+            Debug.Log("Greadt");
+            OnCarExit?.Invoke();
+        }
+    }
+
 
     // private void OnDrawGizmos()
     // {

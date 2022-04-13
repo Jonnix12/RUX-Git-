@@ -190,7 +190,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7659042339306699365}
   - component: {fileID: 7659042339306699366}
-  - component: {fileID: 1900623538}
+  - component: {fileID: 1071566672}
+  - component: {fileID: 1071566673}
+  - component: {fileID: 1071566674}
+  - component: {fileID: 1071566675}
   m_Layer: 0
   m_Name: Gride
   m_TagString: Untagged
@@ -207,7 +210,7 @@ Transform:
   m_GameObject: {fileID: 7659042339306699367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.406, y: 0.846, z: 2.533}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 5593922126976243588}
   - {fileID: 7016414330942887408}
@@ -230,21 +233,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca736acefd8b8e4d8eaadc16ac7f899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1900623538
-MonoBehaviour:
+  OnCarExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3531853276824069160, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+        m_TargetAssemblyTypeName: RedCar, Assembly-CSharp
+        m_MethodName: OnCarExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &1071566672
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7659042339306699367}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca8836b288d8b9f478192dc7f2c3aafd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grid: {fileID: 7659042339306699366}
-  Target: {fileID: 0}
-  Plate: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 6, y: 1, z: 0.1}
+  m_Center: {x: 3, y: 0, z: 6.1}
+--- !u!65 &1071566673
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7659042339306699367}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 1, z: 0.1}
+  m_Center: {x: 3, y: 0, z: -0.1}
+--- !u!65 &1071566674
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7659042339306699367}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 1, z: 6}
+  m_Center: {x: 6.1, y: 0, z: 3}
+--- !u!65 &1071566675
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7659042339306699367}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 1, z: 6}
+  m_Center: {x: -0.1, y: 0, z: 3}
 --- !u!1 &8767406313768034395
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,7 +1039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470940464151147719, guid: 9dbb4d801e6982d458572e7b86cc1eef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.906
+      value: -5.902
       objectReference: {fileID: 0}
     - target: {fileID: 470940464151147719, guid: 9dbb4d801e6982d458572e7b86cc1eef, type: 3}
       propertyPath: m_LocalPosition.y
@@ -992,7 +1047,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470940464151147719, guid: 9dbb4d801e6982d458572e7b86cc1eef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.033
+      value: -1.024
       objectReference: {fileID: 0}
     - target: {fileID: 470940464151147719, guid: 9dbb4d801e6982d458572e7b86cc1eef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2084,6 +2139,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 470940464151147833, guid: 9dbb4d801e6982d458572e7b86cc1eef, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 470940464151147836, guid: 9dbb4d801e6982d458572e7b86cc1eef, type: 3}
       propertyPath: m_Name
       value: GridePlane (2)
