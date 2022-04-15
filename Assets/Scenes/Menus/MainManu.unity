@@ -1279,7 +1279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7607947368715595991, guid: c0033566c5fffcc41918feb65d05f26b, type: 3}
       propertyPath: m_Name
-      value: LavelManager
+      value: GameManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0033566c5fffcc41918feb65d05f26b, type: 3}

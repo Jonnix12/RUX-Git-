@@ -9,7 +9,7 @@ public class Gride : MonoBehaviour
 {
     GridePlate[] gridePlates;
 
-    public UnityEvent OnCarExit; 
+
 
     private void Awake()
     {
@@ -26,32 +26,5 @@ public class Gride : MonoBehaviour
                 i++;
             }
         }
-
     }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag.Contains("RedCar"))
-        {
-            Debug.Log("Greadt");
-            OnCarExit?.Invoke();
-        }
-    }
-
-
-    // private void OnDrawGizmos()
-    // {
-    //     Gizmos.color = Color.red;
-    //     Gizmos.DrawLine(new Vector3(0, 0, 0), new Vector3(6, 0, 0));
-    //     Gizmos.DrawLine(new Vector3(0, 0, 0), new Vector3(0, 0, 6));
-    //     Gizmos.DrawLine(new Vector3(6, 0, 0), new Vector3(6, 0, 6));
-    //     Gizmos.DrawLine(new Vector3(0, 0, 6), new Vector3(6, 0, 6));
-    //
-    //     Gizmos.color = Color.green;
-    //     for (int X = 1; X < 6; X++)
-    //     {
-    //         Gizmos.DrawLine(new Vector3(X, 0, 6), new Vector3(X, 0, 0));
-    //         Gizmos.DrawLine(new Vector3(0, 0, X), new Vector3(6, 0, X));
-    //     }
-    // }
 }

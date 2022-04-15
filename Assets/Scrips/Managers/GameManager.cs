@@ -9,12 +9,14 @@ namespace Scrips
     public class GameManager : MonoBehaviour
     {
          [HideInInspector] public static int sceneIndex = 1;
-
+         
         private void Start()
         {
             DontDestroyOnLoad(this);
             PlayerPrefs.GetInt("SceneIndex(ruseHour)",sceneIndex); 
         }
+        
+        
 
         #region SceneManagmant
         
@@ -61,6 +63,7 @@ namespace Scrips
         public void OnCarExit()
         {
             Debug.Log("End");
+            LockCuror(true);
         }
 
         #endregion
