@@ -6,10 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="3115370a-83a2-44e4-a78e-ce55d8b33f68" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RUX-Git-/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RUX-Git-/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Gride/Gride.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Gride/Gride.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Red_Car.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Vehicles/Red_Car.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CarTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CarTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 6.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menus/MainManu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/MainManu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window/window_transparent.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window/window_transparent.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Car/RedCar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Car/RedCar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Gride/Gride.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Gride/Gride.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +101,6 @@
       <workItem from="1649794652547" duration="6308000" />
       <workItem from="1649945641222" duration="4081000" />
       <workItem from="1650023246278" duration="2570000" />
-      <workItem from="1650105836122" duration="5449000" />
-      <workItem from="1650299882648" duration="20000" />
     </task>
     <servers />
   </component>

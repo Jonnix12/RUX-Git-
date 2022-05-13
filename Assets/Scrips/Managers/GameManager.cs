@@ -9,37 +9,63 @@ namespace Scrips
     public class GameManager : MonoBehaviour
     {
          [HideInInspector] public static int sceneIndex = 1;
-
-         private UIManager _uiManager;
-         private LevelManager _levelManager;
-         private CarManager _carManager;
-        
-         private void Start()
+         
+        private void Start()
         {
             DontDestroyOnLoad(this);
             PlayerPrefs.GetInt("SceneIndex(ruseHour)",sceneIndex); 
         }
+        
+        
 
-         public void SetManager(int managerIndex)
-         {
-             switch (managerIndex)
-             {
-                 case 1:
-                     break;
-                 case 2:
-                         break;
-                     case 3:
-                         break;
-                         
-             }
-         }
-
-         public void OnCarExit()
+        #region SceneManagmant
+        
+        public void LoadCurrentScene()
         {
-            Debug.Log("End");
-            
+            SceneManager.LoadScene(sceneIndex);
+        }
+        
+        public void LoadNextScenes()
+        {
+            sceneIndex++;
+            SceneManager.LoadScene(sceneIndex);
         }
 
+        private void OnApplicationQuit()
+        {
+            PlayerPrefs.SetInt("SceneIndex(ruseHour)",sceneIndex);
+        }
+
+        public void LoadLevelSelect()
+        {
+            SceneManager.LoadScene("LevelSelect");
+        }
+
+        public void LoadScene(int scceneIndex)
+        {
+            SceneManager.LoadScene(scceneIndex);
+        }
         
+        #endregion
+
+        #region EndScreen
+
+        public void LockCuror(bool cursorStat)
+        {
+            Cursor.visible = cursorStat;
+
+            if (!cursorStat)
+                Cursor.lockState = CursorLockMode.Locked;
+            else
+                Cursor.lockState = CursorLockMode.None;
+        }
+
+        public void OnCarExit()
+        {
+            Debug.Log("End");
+            LockCuror(true);
+        }
+
+        #endregion
     }
 }
